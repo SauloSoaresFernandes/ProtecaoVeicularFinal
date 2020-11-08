@@ -21,6 +21,7 @@ namespace Api.Controllers
             _context = context;
         }
 
+
         // GET: api/Associados
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Associados>>> GetAssociados()
